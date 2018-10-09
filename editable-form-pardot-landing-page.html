@@ -1,0 +1,29 @@
+<div id="formHolder">
+    <!-- ^container for the pardot form -->
+    <code pardot-region="form-iframe-code"><!-- this appears as an editable region in the landing page content editor, the user will see the instructions when they click it -->
+<!--
+INSTRUCTIONS:
+1. Paste the iframe code of the desired form below.
+2. After the opening '<iframe' and before 'src' add the following: 
+
+onload="iframeResize()"
+
+3. Click "Save", then "Confirm & Save"
+4. Your form will automatically be resized to fit the page.
+
+PASTE IFRAME CODE BELOW -->
+    </code>
+</div>
+
+<!-- apply the following before the closing body tag -->
+<script>
+    // set iframe height equal to form height
+    let iFrameID = document.querySelector('iframe');
+    function iframeResize() {
+        if (iFrameID) {
+            // here you can make the height, I delete it first, then I make it again
+            iFrameID.height = "";
+            iFrameID.height = iFrameID.contentWindow.document.body.scrollHeight + "px";
+        }
+    }
+</script>
