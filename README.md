@@ -10,4 +10,10 @@
 
 #### Once the user follows the instructions, their landing page will now have a perfectly sized and styled Pardot form on their landing page that can easily be replaced with another one at any given time.
 
+### How it looks in the editor:
+
 ![screenshot1](https://user-images.githubusercontent.com/37640364/46686133-32afde00-cbac-11e8-9509-bc28bdc977b2.png)
+
+### After user clicks on form-iframe-code:
+
+![screenshot2](https://user-images.githubusercontent.com/37640364/46686398-09dc1880-cbad-11e8-9a3b-2b9a591f9dd5.png)
